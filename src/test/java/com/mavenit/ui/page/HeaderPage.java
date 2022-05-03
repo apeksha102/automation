@@ -9,7 +9,7 @@ import java.util.List;
 
 public class HeaderPage extends DriverManager {
     public void  search(String product) {
-        driver.findElement(By.className("_1Rz0y")).sendKeys(product);
+        driver.findElement(By.className("_1Rz0y//////////")).sendKeys(product);
         driver.findElement(By.cssSelector("._1gqeQ")).click();
 
     }
