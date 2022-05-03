@@ -11,7 +11,7 @@ import java.io.File;
 
 public class DriverManager {
     public static WebDriver driver;
-    String URL=System.getenv("url");
+    String URL="www.argos.co.uk";
 
     public void openBrowser() {
         WebDriverManager.chromedriver().setup();
